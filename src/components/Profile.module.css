@@ -1,0 +1,12 @@
+.main__content {
+    grid-area: main;
+    background-color: yellow;
+  }
+  
+  .main__content img {
+    width: 100%;
+  }
+
+  .main__item {
+  color: red;
+  }

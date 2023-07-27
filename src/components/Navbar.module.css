@@ -1,0 +1,21 @@
+.nav {
+    grid-area: nav;
+    background-color: aqua;
+  }
+  
+  .nav__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+  }
+  
+  .nav__item {
+    list-style: none;
+  }
+  
+  .nav__link {
+    color:white;
+    text-decoration: none;
+  }
+  
