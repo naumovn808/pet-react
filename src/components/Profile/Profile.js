@@ -1,6 +1,7 @@
 import React from "react";
-import mainImg from "../images/main.jpg";
+import mainImg from "../../images/main.jpg";
 import classes from './Profile.module.css';
+import MyPosts from "./MyPosts/MyPosts";
 
 export default function Profile() {
     return (
@@ -8,7 +9,7 @@ export default function Profile() {
 
             <div>
 
-                <img alt='main-pic.' src={mainImg}></img>
+                <img alt='main-pic.' src={mainImg} className={classes.main__img}></img>
 
             </div>
 
@@ -16,15 +17,7 @@ export default function Profile() {
                 avatar + description
             </div>
 
-            <div className={classes.main__item}>
-                my post
-                <div>
-                    post
-
-                    <div>post1</div>
-                    <div>post2</div>
-                </div>
-            </div>
+            <MyPosts />
 
         </main>
     )

@@ -1,5 +1,5 @@
 import React from 'react';
-import images from "../images/yappi.png";
+import images from "../../images/yappi.png";
 import classes from './Header.module.css';
 
 export default function Header() {
