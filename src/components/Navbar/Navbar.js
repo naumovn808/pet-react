@@ -10,6 +10,8 @@ export default function Navbar() {
                 <li className={classes.nav__item}><a href='#' className={classes.nav__link}>News</a></li>
                 <li className={classes.nav__item}><a href='#' className={classes.nav__link}>Music</a></li>
                 <li className={classes.nav__item}><a href='#' className={classes.nav__link}>Settings</a></li>
+                                <li className={classes.nav__item}><a href='#' className={classes.nav__link}>Settings</a></li>
+                                <li className={classes.nav__item}><a href='#' className={classes.nav__link}>Settings</a></li>
             </ul>
         </nav>
     )
