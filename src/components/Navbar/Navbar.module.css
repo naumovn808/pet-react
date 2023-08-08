@@ -19,3 +19,6 @@
     text-decoration: none;
   }
   
+  .nav__link:hover {
+    color: #000;
+  }
