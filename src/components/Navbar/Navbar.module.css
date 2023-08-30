@@ -13,7 +13,17 @@
   .nav__item {
     list-style: none;
   }
+
   
+  .nav__item a {
+    text-decoration: none;
+  }
+  
+  
+  .nav__item a.active {
+  color: gold;
+  }
+
   .nav__link {
     color:white;
     text-decoration: none;
